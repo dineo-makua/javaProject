@@ -5,7 +5,7 @@ import java.util.List;
 
 public class MaxAggregator extends Aggregator{
 
-    public MaxAggregator(List<Double> numbers) {
+    public MaxAggregator() {
         this.numbers = new ArrayList<Double>();
     }
 

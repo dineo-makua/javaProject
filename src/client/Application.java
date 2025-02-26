@@ -17,7 +17,7 @@ public class Application {
         values.add(100.90);
         values.add(98.76);
 
-        Aggregator minValue = new MinAggregator(values.getValues());
+        Aggregator minValue = new MinAggregator();
 
         double result = minValue.calculate();
 

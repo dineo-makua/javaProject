@@ -5,7 +5,7 @@ import java.util.List;
 
 public class MinAggregator extends Aggregator{
 
-    public MinAggregator(List<Double> numbers) {
+    public MinAggregator() {
         this.numbers = new ArrayList<Double>(numbers);
     }
 
